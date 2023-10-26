@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import { useDispatch } from 'react-redux';
 import { login } from '../app/userSlice';
 import { setCartItems } from '../app/cartSlice';
-import SocialLogin from './SocialLogin';
+// import SocialLogin from './SocialLogin';
 
 
 export default function LoginForm({ setPop }) {
@@ -149,7 +149,7 @@ export default function LoginForm({ setPop }) {
                 </Modal.Body>
                 <Modal.Footer className='d-flex justify-content-center'>
                     <Button variant="success" style={{ minWidth: '15rem' }} onClick={handleSubmit}>Login</Button>
-                    <SocialLogin/>
+                    {/* <SocialLogin/> */}
                 </Modal.Footer>
             </Modal>
         </div>
