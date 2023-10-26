@@ -1,0 +1,25 @@
+.cart {
+    position: relative;
+    display: block;
+    width: 28px;
+    height: 28px;
+    height: auto;
+    
+}
+.count {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 2;
+      font-size: 11px;
+      border-radius: 50%;
+      background: #05c02d;
+      width: 16px;
+      height: 16px;
+      line-height:16px;
+      display: block;
+      text-align: center;
+      color: #faf8f8;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
